@@ -60,9 +60,6 @@ class Todo extends Schedule{
 
     private boolean isChecked;
 
-
-
-
     public void toggleCheckBox(){
         if(this.isChecked)
             this.isChecked = false;
